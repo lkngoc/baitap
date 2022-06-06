@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color:  #3B5971;
+    height: 100vh;
+    
+}
+.container{
+    width: 1024px;
+    height: 900px;
+    background:  #1C233D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 0 70px;
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav .logo{
+    margin-top: 7px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: auto 10px;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s ease;
+    letter-spacing: 1px;
+    padding: 5px 0px;
+}
+nav ul li:hover a{
+    outline: none;
+    border-bottom: 3px solid rgb(0, 94, 255);
+    background: none;
+}
+nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 30px;
+}
+nav .search-box input{
+    height: 100%;
+    background: none;
+    border:1px solid white;
+    padding: 0 10px;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+nav .search-box input::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+nav .search-box span{
+    color:white;
+    font-size: 15px;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    left: -35px;
+    cursor: pointer;
+    z-index:1;
+}
+nav .btn{
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+    width: 93px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+nav .btn:hover{
+    transform: scale(1.2,1.2);
+}
+
+.home{
+    width: 100%;
+}
+.home-container{
+    display: flex;
+    justify-content: space-between;
+}
+.home-content{
+    width: 400px;
+    margin-top: 100px;
+    color: white;
+}
+.home-subtitle{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+
+}
+.home-description{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-style: normal;
+}
+.home-numb{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.numb-k{
+    padding-right: 45px;
+}
+.home-numb .numb-k h3{
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+}
+.home-content button{
+    width: 199px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+.home-img{
+    margin-top: 100px;
+    background-color:#30384D;
+    border-radius: 5px;
+    padding:20px 20px 20px 20px;
+    height: 510px;
+}
+.logo-company{
+    height: 50px;
+    margin-top: 120px;
+    text-align: right;
+}
+.logo-company img{
+    height: 50px;
+    width: 135px;
+    margin-left: 30px;
+}
+.img-info{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-info h6{
+    color: white;
+    font-size: 16px;
+}
+.img-avt{
+    position: relative;
+    display: flex;
+}
+.img-info img{
+    height: 30px;
+}
+.avatar-info-group{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.avatar-info{
+    width: 19%;
+    align-items: center;
+}
+.avatar-info-1{
+    text-align: center;
+}
+.avatar-info-2{
+    text-align: right;
+}
+.avatar-info h6,.avatar-info-1 h6,.avatar-info-2 h6{
+    font-weight: 100;
+    font-size: 12px;
+    color: #545C71;
+    margin-bottom: 5px;
+}
+.avatar-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.avatar-content img{
+    height: 12px;
+    padding-right: 5px;
+}
+.avatar-content p{
+    font-size: 13px;
+    font-weight: 100;
+}
